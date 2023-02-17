@@ -1,27 +1,114 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fa" dir="rtl">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Readme</title>
+
+    <style>
+      html {
+        -webkit-text-size-adjust: 100%;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+      }
+
+      @media only screen and (min-width: 1024px) {
+        :root {
+          --elements-headerHeight: 5rem;
+        }
+      }
+      body {
+        font-family: "Apercu", -apple-system, BlinkMacSystemFont, "Segoe UI",
+          "Roboto", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+          "Helvetica Neue", sans-serif;
+        font-weight: 400;
+        line-height: 1.5;
+        text-align: right;
+      }
+
+      .box {
+        padding: 1.5rem;
+      }
+
+      pre,
+      code,
+      kbd,
+      samp {
+        font-family: monospace, monospace;
+        font-size: 1em;
+      }
+
+      pre {
+        white-space: pre;
+        margin-top: 0;
+        margin-bottom: 1rem;
+        overflow: auto;
+        -ms-overflow-style: scrollbar;
+      }
+
+      .codeContainer {
+        display: block;
+        text-align: left;
+        font-weight: normal;
+        background-color: rgb(33, 30, 47);
+        color: rgb(147, 149, 152);
+        font-family: Monaco, Menlo, "Ubuntu Mono", "Droid Sans Mono", Consolas,
+          monospace;
+        font-size: 0.875rem;
+        padding: 1rem;
+        overflow-wrap: break-word;
+        white-space: pre-wrap;
+        -webkit-font-smoothing: antialiased;
+      }
+
+      #tb {
+        font-family: Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+      }
+
+      #tb td,
+      #tb th {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: center;
+        font-weight: 600;
+      }
+
+      #tb td:nth-child(even) {
+        background-color: #f2f2f2;
+      }
+
+      #tb td:hover {
+        background-color: #ddd;
+      }
+
+      #tb th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: #04aa6d;
+        color: white;
+      }
+    </style>
+
   </head>
   <body>
     <div class="box">
-      <div aria-hidden="true">Full-Stack Engineer</div>
-      <span aria-hidden="true">Message Mixer</span>
+      <div aria-hidden="true">برنامه لغتنامه</div>
+      <span aria-hidden="true">تغییر دهنده پیام</span>
       <div>
         <div>
           <p>
-            Message Mixer Inc. offers a message-encryption service that
-            transforms input text, using various
+            تغییر دهنده پیام یک خدمت رمزگذاری به سه روش مختلف را ارائه میکند
             <a
               target="_blank"
               rel="noopener"
               href="https://en.wikipedia.org/wiki/Cipher"
               >ciphers</a
-            >, and displays the encrypted message to the console.
+            >،پیام رمزشده را در صفحه نمایش میدهد
           </p>
-          <p>There are three encryption methods provided by this service:</p>
+          <p>سه خدمت:</p>
           <ol>
             <li>
               A
@@ -29,53 +116,102 @@
                 target="_blank"
                 rel="noopener"
                 href="https://en.wikipedia.org/wiki/Caesar_cipher"
-                >“Caesar Cipher”</a
-              >
-              in which the characters of the input message are shifted
-              alphabetically by a given amount.
+                >“Caesar”</a
+              >در این روش ترتیب نشانه‌های موجود در پیام ورودی بصورت الفبایی به
+              تعداد داده شده جابجا میشود
             </li>
             <li>
-              A “Symbol Cipher” in which select characters from the input
-              message are replaced with visually similar symbols.
+              “Symbol” در این روش هر حرف فارسی با یک حرف لاتین برای فنگلیش کردن
+              بصورت زیر جابجا میشود:
+              <table id="tb">
+                <tr>
+                  <th>حروف</th>
+                  <td>ا/ع</td>
+                  <td>ب</td>
+                  <td>پ</td>
+                  <td>ت/ط</td>
+                  <td>ث/س/ص</td>
+                  <td>ج</td>
+                  <td>چ</td>
+                  <td>ح</td>
+                  <td>خ</td>
+                  <td>د</td>
+                  <td>ذ/ز/ض/ظ</td>
+                  <td>ر</td>
+                  <td>ژ</td>
+                  <td>ش</td>
+                  <td>غ/ق</td>
+                  <td>ف</td>
+                  <td>ک</td>
+                  <td>گ</td>
+                  <td>ل</td>
+                  <td>م</td>
+                  <td>ن</td>
+                  <td>و</td>
+                  <td>ه</td>
+                  <td>ی</td>
+                </tr>
+                <tr>
+                  <th>معادل</th>
+                  <td>a</td>
+                  <td>b</td>
+                  <td>p</td>
+                  <td>t</td>
+                  <td>s</td>
+                  <td>j</td>
+                  <td>w</td>
+                  <td>h</td>
+                  <td>o</td>
+                  <td>d</td>
+                  <td>z</td>
+                  <td>r</td>
+                  <td>c</td>
+                  <td>x</td>
+                  <td>q</td>
+                  <td>f</td>
+                  <td>k</td>
+                  <td>g</td>
+                  <td>l</td>
+                  <td>m</td>
+                  <td>n</td>
+                  <td>u</td>
+                  <td>e</td>
+                  <td>y</td>
+                </tr>
+              </table>
             </li>
             <li>
-              A “Reverse Cipher” in which each word of the input message is
-              reversed in place.
+              یک “Reverse” رمز برعکس که در این روش مکان هر حرف در یک کلمه برعکس
+              میشود.
             </li>
           </ol>
-          <p>To use this service, run the command below:</p>
-          <pre><pre><code><div class="codeContainer"><span><span>node message-mixer.js ['caesar'|'symbol'|'reverse'</span><span>] [amount]</span></span><br></div></code></pre></pre>
-          <p>Here are some examples of running this program:</p>
-          <pre><pre><code><div class="codeContainer"><span><span>$ node message-mixer.js caesar 4</span></span><br><span><span>Enter the message you would like to encrypt...</span></span><br><span><span>&gt; hello world</span></span><br><span><span> </span></span><br><span><span>Here is your encrypted message:</span></span><br><span><span>&gt; lipps asvph</span></span><br><span><span> </span></span><br><span><span>$ node message-mixer.js 'reverse'</span></span><br><span><span>Enter the message you would like to encrypt...</span></span><br><span><span>&gt; hello world</span></span><br><span><span> </span></span><br><span><span>Here is your encrypted message:</span></span><br><span><span>&gt; olleh dlrow</span></span><br></div></code></pre></pre>
           <p>
-            At present, Message Mixer Inc. sells their encryption service as a
-            program in a single file called <strong>message-mixer.js</strong>.
-            This single file includes:
+            برای استفاده از این خدمات، دستور زیر را پس از نصب نُد روی دستگاه‌تان
+            اجرا کنید:
+          </p>
+          <pre><pre><code><div class="codeContainer"><span><span>node message-mixer.js ['caesar'|'symbol'|'reverse'</span><span>] [amount]</span></span><br></div></code></pre></pre>
+          <p>اینجا چند نمونه از اجرای این برنامه را میبینید:</p>
+          <pre><pre><code><div class="codeContainer"><span><span>$ node message-mixer.js caesar 4</span></span><br><span><span>Enter the message you would like to encrypt...</span></span><br><span><span>&gt; hello world</span></span><br><span><span> </span></span><br><span><span>Here is your encrypted message:</span></span><br><span><span>&gt; lipps asvph</span></span><br><span><span> </span></span><br><span><span>$ node message-mixer.js 'reverse'</span></span><br><span><span>Enter the message you would like to encrypt...</span></span><br><span><span>&gt; hello world</span></span><br><span><span> </span></span><br><span><span>Here is your encrypted message:</span></span><br><span><span>&gt; olleh dlrow</span></span><br><span><span> </span></span><br><span><span>$ node .\message-mixer.js symbol</span></span><br><span><span>Enter the message you would like to encrypt...</span></span><br><span><span>> طرح</span></span><br><span><span> </span></span><br><span><span>Here is your encrypted message:</span></span><br><span><span>> trh</span></span><br><span><span> </span></span><br></div></code></pre></pre>
+
+          <p>
+            در حال حاضر این طرح دارای سه پرونده بنام
+            <strong>message-mixer.js, encryptors.js, super-encoders.js</strong>
+            میباشد. عملکرد این پرونده‌ها شامل موارد زیر است:
           </p>
           <ol>
-            <li>The functions that perform the encryptions listed above.</li>
-            <li>The code for retrieving the user input.</li>
-            <li>The code for displaying the output back to the user.</li>
+            <li>تابعی که رمزگذاری فهرست شده در بالا را اجرا میکند.</li>
+            <li>برنامه‌ای که پیام ورودی کاربر را دریافت میکند.</li>
+            <li>متنی که خروجی را برای کاربر نمایش میدهد.</li>
           </ol>
+          <p>در صورت علاقه شما هم میتوانید در بهبود این برنامه مشارکت کنید</p>
           <p>
-            Message Mixer Inc. now wants to join the open-source community by
-            packaging its encryption functions in a module and allowing other
-            developers to import these encryption functions into their own
-            projects.
+            تابع رمزگذاری پرونده
+            <strong>encryptors.js</strong> است, و
+            <strong>message-mixer.js</strong> از آن بهره میبرد.
           </p>
           <p>
-            In this project, you will help Message Mixer Inc. extract and
-            isolate its encryption functions into a module, called
-            <strong>encryptors.js</strong>, and then refactor
-            <strong>message-mixer.js</strong> to use this module’s functions.
-          </p>
-          <p>
-            Before you begin, try running the commands listed above in the
-            terminal. Then, familiarize yourself with how the program works by
-            examining the three files in the file directory, focusing on
-            <strong>message-mixer.js</strong>. At the top of this file you will
-            find the three encryption cipher functions. Towards the bottom of
-            the file, you will find some code that uses the
+            قبل از شروع، سعی کنید که دستورات مذکور در بالا را اجرا کرده و با
+            کارکرد برنامه آشنا شوید. این برنامه از متغیرهای محیطی
             <a
               target="_blank"
               rel="noopener"
@@ -94,11 +230,12 @@
               href="https://nodejs.org/api/process.html#process_process_stdout"
               ><code>process.stdout</code></a
             >
-            environment variables to determine which encryption method to use,
-            parse the user input, and display the encrypted message.
+            به منظور تشخیص روش رمزگذاری درخواست شده و فهم پیام وارد شده توسط
+            کاربر و همچنین نمایش پیام رمزگذاری شده بهره میبرد.
           </p>
         </div>
       </div>
     </div>
+
   </body>
 </html>
