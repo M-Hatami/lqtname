@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Readme</title>
   </head>
   <body>
     <div class="box">
@@ -102,9 +101,38 @@
             برای استفاده از این خدمات، دستور زیر را پس از نصب نُد روی دستگاه‌تان
             اجرا کنید:
           </p>
-          <pre><pre><code><div class="codeContainer"><span><span>node message-mixer.js ['caesar'|'symbol'|'reverse'</span><span>] [amount]</span></span><br></div></code></pre></pre>
+          ```
+          node message-mixer.js ['caesar'|'symbol'|'reverse'] [amount]
+          ```
+          </div></code></pre></pre>
           <p>اینجا چند نمونه از اجرای این برنامه را میبینید:</p>
-          <pre><pre><code><div class="codeContainer"><span><span>$ node message-mixer.js caesar 4</span></span><br><span><span>Enter the message you would like to encrypt...</span></span><br><span><span>&gt; hello world</span></span><br><span><span> </span></span><br><span><span>Here is your encrypted message:</span></span><br><span><span>&gt; lipps asvph</span></span><br><span><span> </span></span><br><span><span>$ node message-mixer.js 'reverse'</span></span><br><span><span>Enter the message you would like to encrypt...</span></span><br><span><span>&gt; hello world</span></span><br><span><span> </span></span><br><span><span>Here is your encrypted message:</span></span><br><span><span>&gt; olleh dlrow</span></span><br><span><span> </span></span><br><span><span>$ node .\message-mixer.js symbol</span></span><br><span><span>Enter the message you would like to encrypt...</span></span><br><span><span>> طرح</span></span><br><span><span> </span></span><br><span><span>Here is your encrypted message:</span></span><br><span><span>> trh</span></span><br><span><span> </span></span><br></div></code></pre></pre>
+         
+          ```
+          $ node message-mixer.js caesar 4
+          Enter the message you would like to encrypt...
+          > hello world
+
+          Here is your encrypted message:
+          > lipps asvph
+
+
+
+
+          $ node message-mixer.js 'reverse'
+          Enter the message you would like to encrypt...
+          > hello world
+          
+          Here is your encrypted message:
+          > olleh dlrow
+          
+          $ node .\message-mixer.js symbol
+          Enter the message you would like to encrypt...
+          > طرح
+          
+          Here is your encrypted message:
+          > trh
+
+          ```
           <p>
             در حال حاضر این طرح دارای سه پرونده بنام
             <strong>message-mixer.js, encryptors.js, super-encoders.js</strong>
