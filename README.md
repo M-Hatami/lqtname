@@ -1,14 +1,6 @@
-<!DOCTYPE html>
-<html lang="fa" dir="rtl">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  </head>
-  <body>
-    <div class="box">
-      <div aria-hidden="true">برنامه لغتنامه</div>
-      <span aria-hidden="true">تغییر دهنده پیام</span>
+<div dir="auto" lang="fa">
+      <h1>برنامه لغتنامه</h1>
+      <span>تغییر دهنده و رمزگذاری پیام</span>
       <div>
         <div>
           <p>
@@ -21,15 +13,14 @@
             >،پیام رمزشده را در صفحه نمایش میدهد
           </p>
           <p>سه خدمت:</p>
-          <ol>
+          <ol dir="rtl">
             <li>
-              A
               <a
                 target="_blank"
                 rel="noopener"
                 href="https://en.wikipedia.org/wiki/Caesar_cipher"
                 >“Caesar”</a
-              >در این روش ترتیب نشانه‌های موجود در پیام ورودی بصورت الفبایی به
+              > در این روش ترتیب نشانه‌های موجود در پیام ورودی بصورت الفبایی به
               تعداد داده شده جابجا میشود
             </li>
             <li>
@@ -101,13 +92,15 @@
             برای استفاده از این خدمات، دستور زیر را پس از نصب نُد روی دستگاه‌تان
             اجرا کنید:
           </p>
-          ```
-          node message-mixer.js ['caesar'|'symbol'|'reverse'] [amount]
-          ```
-          </div></code></pre></pre>
+                  </div>
+      </div>
+    </div>
+node message-mixer.js ['caesar'|'symbol'|'reverse'] [amount]
+<div dir="rtl">
           <p>اینجا چند نمونه از اجرای این برنامه را میبینید:</p>
+          </div>
          
-          ```
+```  
           $ node message-mixer.js caesar 4
           Enter the message you would like to encrypt...
           > hello world
@@ -121,18 +114,19 @@
           $ node message-mixer.js 'reverse'
           Enter the message you would like to encrypt...
           > hello world
-          
+
           Here is your encrypted message:
           > olleh dlrow
-          
+
           $ node .\message-mixer.js symbol
           Enter the message you would like to encrypt...
           > طرح
-          
+
           Here is your encrypted message:
           > trh
 
-          ```
+```
+<div dir="auto" lang="fa">
           <p>
             در حال حاضر این طرح دارای سه پرونده بنام
             <strong>message-mixer.js, encryptors.js, super-encoders.js</strong>
@@ -173,9 +167,4 @@
             به منظور تشخیص روش رمزگذاری درخواست شده و فهم پیام وارد شده توسط
             کاربر و همچنین نمایش پیام رمزگذاری شده بهره میبرد.
           </p>
-        </div>
-      </div>
-    </div>
-
-  </body>
-</html>
+</div>
